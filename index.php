@@ -4,6 +4,9 @@
 
 <head>
     <title>Dropping Donuts Order Form</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
