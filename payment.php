@@ -42,8 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     echo "<p>Toppings: " . implode(", ", $toppings) . "</p>";
     echo "<p>Filling: $filling</p>";
     echo "<p>Quantity: $quantity</p>";
-    echo "<p>Price per donut: $" . number_format($priceOfDonut, 2) . "</p>";
-    echo "<p>Total price: $" . number_format($orderTotal, 2) . "</p>";
+    echo "<p>Price per donut: R" . number_format($priceOfDonut, 2) . "</p>";
+    echo "<p>Total price: R" . number_format($orderTotal, 2) . "</p>";
 } else {
     // if the form was not submitted, redirect to the order form page
     header('Location: index.php');
