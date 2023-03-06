@@ -1,2 +1,4 @@
 # Donuts
-CLAVIE86
+Claudia Vielmetti - CLAVIE86
+
+Dropping donuts ordering system - made with PHP
